@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.TestInstance
 
 @TestInstance(TestInstance.Lifecycle.PER_METHOD)
-internal class MockitoLateinitTest {
+internal class MockitoLateinitPerMethodTest {
 
     private val dataSubject = PublishSubject.create<CustomPartialState>()
 
